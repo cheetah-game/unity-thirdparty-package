@@ -15,4 +15,4 @@ jobs:
         registry-url: 'https://registry.cheetah.games'    
     - run: npm publish Unity/Packages/Cheetah\ MessagePack --access public
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.token_registry_cheetah_games}}
+        NODE_AUTH_TOKEN: ${{ secrets.TOKEN_REPOSITORY_CHEETAH_GAMES}}
