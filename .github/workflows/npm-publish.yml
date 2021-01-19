@@ -16,3 +16,6 @@ jobs:
     - run: npm publish Unity/Packages/Cheetah\ MessagePack --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.TOKEN_REPOSITORY_CHEETAH_GAMES}}
+    - run: npm publish Unity/Packages/Cheetah\ System\ Library --access public
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.TOKEN_REPOSITORY_CHEETAH_GAMES}}    
