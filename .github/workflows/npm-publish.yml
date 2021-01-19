@@ -5,17 +5,14 @@ on:
     types: [created]
 
 jobs:
-  publish-messagepack:
+  publish:
     runs-on: ubuntu-latest
     steps:  
     - uses: actions/checkout@v2  
-    - run: cd Unity/Packages/Cheetah\ MessagePack
-    - run: pwd
-    - run: ls         
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
         registry-url: 'https://registry.cheetah.games'    
-    - run: npm publish --access public
+    - run: npm publish Unity/Packages/Cheetah\ MessagePack --access public
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.token_registry_cheetah_games }}
+        NODE_AUTH_TOKEN: ${{ secrets.token_registry_cheetah_games}}
