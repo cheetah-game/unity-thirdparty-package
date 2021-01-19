@@ -1,6 +1,6 @@
 {
   "name": "games.cheetah.unity.system-libraries",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "displayName": "Cheetah System Library",
   "description": "System.Buffers.dll, System.Memory.dll, System.Runtime.CompilerServices.Unsafe.dll, System.Threading.Tasks.Extensions.dll",
   "unity": "2019.1",
