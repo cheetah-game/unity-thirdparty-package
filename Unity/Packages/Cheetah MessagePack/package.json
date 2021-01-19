@@ -1,6 +1,6 @@
 {
   "name": "games.cheetah.unity.messagepack",
-  "version": "1.2.0",
+  "version": "999.999.999",
   "displayName": "Cheetah MessagePack",
   "description": "Package for https://github.com/neuecc/MessagePack-CSharp/",
   "unity": "2019.1",
@@ -23,7 +23,7 @@
   "author": "https://cheetah.games",
   "hideInEditor": false,
   "dependencies": {
-    "games.cheetah.unity.system-libraries": "1.2.0"
+    "games.cheetah.unity.system-libraries": "999.999.999"
   }
 }
 
