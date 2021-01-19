@@ -1,0 +1,30 @@
+{
+  "name": "games.cheetah.unity.messagepack",
+  "version": "1.0.0",
+  "displayName": "Cheetah MessagePack",
+  "description": "Package for https://github.com/neuecc/MessagePack-CSharp/",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "type": "library",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:cheetah-game/unity-thirdparty-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cheetah-game/unity-thirdparty-package/issues"
+  },
+  "keywords": [
+    "unity",
+    "unity3d",
+    "cheetah",
+    "library",
+    "messagepack"
+  ],
+  "author": "https://cheetah.games",
+  "hideInEditor": false,
+  "dependencies": {
+    "games.cheetah.unity.system-libraries": "1.1.0"
+  }
+}
+
+

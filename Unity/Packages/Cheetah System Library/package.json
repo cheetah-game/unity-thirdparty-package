@@ -1,0 +1,24 @@
+{
+  "name": "games.cheetah.unity.system-libraries",
+  "version": "1.1.0",
+  "displayName": "Cheetah System Library",
+  "description": "System.Buffers.dll, System.Memory.dll, System.Runtime.CompilerServices.Unsafe.dll, System.Threading.Tasks.Extensions.dll",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "type": "library",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:cheetah-game/unity-thirdparty-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cheetah-game/unity-thirdparty-package/issues"
+  },
+  "keywords": [
+    "unity",
+    "unity3d",
+    "cheetah",
+    "library"
+  ],
+  "author": "https://cheetah.games",
+  "hideInEditor": false
+}
