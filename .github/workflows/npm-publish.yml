@@ -12,7 +12,8 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-        registry-url: 'https://registry.cheetah.games'    
+        registry-url: 'https://registry.cheetah.games'   
+    - run: sed -i .bak 's/VVV/${{ github.event.release.tag_name }}/' Unity/Packages/Cheetah\ MessagePack/package.json   
     - run: npm publish Unity/Packages/Cheetah\ MessagePack --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.TOKEN_REPOSITORY_CHEETAH_GAMES}}
