@@ -7,9 +7,9 @@ on:
 jobs:
   publish-messagepack:
     runs-on: ubuntu-latest
-    steps:
-    - run: cd Unity/Packages/Cheetah\ MessagePack 
-    - uses: actions/checkout@v2    
+    steps:  
+    - uses: actions/checkout@v2  
+    - run: cd Unity/Packages/Cheetah\ MessagePack         
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
