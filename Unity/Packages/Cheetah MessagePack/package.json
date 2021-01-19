@@ -1,6 +1,6 @@
 {
   "name": "games.cheetah.unity.messagepack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Cheetah MessagePack",
   "description": "Package for https://github.com/neuecc/MessagePack-CSharp/",
   "unity": "2019.1",
