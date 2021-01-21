@@ -12,7 +12,7 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-        registry-url: 'https://registry.cheetah.games'   
+        registry-url: 'https://npm.registry.cheetah.games'   
     - run: sed -i.bak 's/999.999.999/${{ github.event.release.tag_name }}/' Unity/Packages/Cheetah\ MessagePack/package.json   
     - run: npm publish Unity/Packages/Cheetah\ MessagePack --access public
       env:
